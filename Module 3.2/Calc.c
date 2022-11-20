@@ -6,6 +6,7 @@ void main()
 	scanf("%d %d",&a,&b);
 	printf("\n1.Addition\n2.Subtraction\n3.Multiplication\n4.Division\n5.Modulo\n Enter Your Choice....!\n");
 	scanf("%d",&c);
+			int i;
 	switch(c)
 	{
 		case 1:
