@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Form</title>
+</head>
+
+<body>
+    <form method="get" action="demo.html">
+        <fieldset>
+            <legend>Signup</legend>
+            <table>
+                <tr>
+                    <td>User name </td>
+                    <td><input type="text" maxlength="10" name="xyz" placeholder="Enter Name" /></td>
+                </tr>
+                <tr>
+                    <td>Password </td>
+                    <td><input type="password" maxlength="8" placeholder="Enter   Password"></td>
+                </tr>
+                <tr>
+                    <td>Gender </td>
+                    <td><input type="radio" name="x" checked />Male <input type="radio" name="x" />Female <input
+                            type="radio" name="x" />Others</td>
+                </tr>
+                <tr>
+                    <td>Birth Date </td>
+                    <td><input type="date"></td>
+                </tr>
+                <tr>
+                    <td>Email ID </td>
+                    <td><input type="email"></td>
+                </tr>
+                <tr>
+                    <td>Area Of Intrest </td>
+                    <td><input type="checkbox" checked />DS <input type="checkbox" />DBMS
+                        <input type="checkbox" />Full Stack
+                    </td>
+                </tr>
+                <tr>
+                    <td>Department </td>
+                    <td>
+                        <select>
+                            <option> - - Select Branch - - </option>
+                            <option>RAI</option>
+                            <option>IT</option>
+                            <option>CSD</option>
+                            <option>CSE</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Address </td>
+                    <td><textarea rows="6" cols="20"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Upload CV </td>
+                    <td><Input type="file" /></td>
+                </tr>
+                <tr>
+                    <td> &nbsp;</td>
+                </tr>
+                <tr>
+                    <td align="right"><Input type="submit" value="Submit" /></td>
+                    <td><Input type="reset" value="Reset" /></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+
+</html>

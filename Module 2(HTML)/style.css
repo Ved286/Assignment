@@ -1,0 +1,33 @@
+h4{
+	color:red;
+	background-color:yellow;
+	border-style:solid; 
+	font-size:20px;
+}
+
+.mystyle{
+	color:green;
+	background-color:orange;
+}
+
+.uppercase{
+	text-transform:uppercase;
+}
+
+#myidstyle{
+	color:pink;
+	background-color:blue;
+}
+
+h1.test{
+	text-decoration:underline;
+}
+
+
+.mydiv{
+	background-color:LightGray;
+}
+
+.mydiv h1{
+	color:white;
+}
