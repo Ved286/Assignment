@@ -28,6 +28,25 @@ eg.	a= document.getElementById('demo')
 
 • What are all the looping structures in JavaScript? 
 while,do while and for loop
+	for (let i = 0; i <= 5; i++) {
+
+            document.write("xyz  ");
+
+        }
+
+        let j = 0;
+        while (j <= 5) {
+
+            document.write("abc  ");
+            j++;
+        }
+        j=0;
+        do {
+
+            document.write("def  ");
+            j++;
+        } while (j <= 5);
+
 
 • How can you convert the string of any base to an integer in JavaScript? 
 by using parseInt(),Number(),etc
