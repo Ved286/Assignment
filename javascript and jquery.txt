@@ -1,0 +1,80 @@
+• What is JavaScript?
+an object-oriented computer programming language commonly used to create interactive effects within web browsers.
+
+• What is the use of isNaN function? 
+nan is a function to check whether the value is not a number
+
+• What is negative Infinity? 
+a special numeric value that is returned when value operation value is in --ve and grater than max representinig value by js.
+
+• Which company developed JavaScript? 
+JavaScript was invented by Brendan Eich in 1995. It was developed for Netscape 2.
+
+• What are undeclared and undefined variables? 
+Undeclared are the variables that  have been not declared in the scope but undefined are the variables whose value is not define but they are declared
+
+• What is the difference between ViewState and SessionState? 
+Session state is saved on the server, ViewState is saved in the page.
+Session state is usually cleared after a period of inactivity from the user. The view state is posted on subsequent post back in a hidden field.
+
+• What is === operator? 
+Strict equality operator
+it returns true if operands are equal and of same type.
+
+• How can the style/class of an element be changed? 
+by calling the id of that tag and apply style to it.
+eg.	a= document.getElementById('demo')
+	a.style.backgroundColor="red".
+
+• What are all the looping structures in JavaScript? 
+while,do while and for loop
+
+• How can you convert the string of any base to an integer in JavaScript? 
+by using parseInt(),Number(),etc
+
+• What is the function of the delete operator? 
+The delete operator removes a property from an object.
+
+• What are all the types of Pop up boxes available in JavaScript? 
+alert,prompt and confirm box.
+
+• What are the disadvantages of using innerHTML in JavaScript? 
+	Replacement is done everywhere.
+	It is not possible to append innerHTML.
+
+• Write the code for adding new elements dynamically? 
+
+
+• What is the use of Void (0)? 
+
+
+• How can a page be forced to load another page in JavaScript? 
+
+
+
+JQUERY
+
+• What is jQuery? 
+JQUERY IS SCRIPT OF JAVASCRIPT. IT makes writing codes easy and smaler
+
+• How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
+JQuery Animation?
+$("div").css("background-color", "violet")
+$('div').animate({right: 0});
+
+
+• How to create slider with animation? 
+<script>
+        $(document).ready(function () {
+            $("#o-1").click(function () {
+                $("#o-3").slideDown();
+            });
+        });
+</script>
+note:-for slidedown #o-3 element must have display prperty hidden to work
+
+
+
+
+
+
