@@ -74,12 +74,20 @@ alert,prompt and confirm box.
 JQUERY
 
 • What is jQuery? 
-JQUERY IS SCRIPT OF JAVASCRIPT. IT makes writing codes easy and smaler
+JQUERY IS library OF JAVASCRIPT. IT makes writing codes easy and smaler. It simplify the complex code of the javascript.
 
 • How to Apply CSS Using JQuery, How to Add Class and Remove Class in Jquery ,
 JQuery Animation?
 $("div").css("background-color", "violet")
 $('div').animate({right: 0});
+ $(document).ready(function () {
+	$("button").click(function () {
+		$("#o-1").fadeToggle() ;
+                $("#o-2").fadeIn(1000) ;
+                $("#o-3").fadeOut(2000) ;
+                $("#o-4").fadeTo("slow",0.5) ;
+	});
+});
 
 
 • How to create slider with animation? 
