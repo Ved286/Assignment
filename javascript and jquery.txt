@@ -88,7 +88,16 @@ $('div').animate({right: 0});
                 $("#o-4").fadeTo("slow",0.5) ;
 	});
 });
+add and remove :-
 
+ $(document).ready(function () {
+            $("button").click(function () {
+                $(to).addClass("one");
+                $(to).removeClass("one");
+            });
+        });
+	
+	
 
 • How to create slider with animation? 
 <script>
