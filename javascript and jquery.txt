@@ -62,14 +62,13 @@ alert,prompt and confirm box.
 	It is not possible to append innerHTML.
 
 • Write the code for adding new elements dynamically? 
-
+var newP = document.createElement("p"); 
+	var textNode = document.createTextNode(" This is a new text node"); 
+	newP.appendChild(textNode); document.getElementById("firstP").appendChild(newP);
 
 • What is the use of Void (0)? 
-
-
-• How can a page be forced to load another page in JavaScript? 
-
-
+Using “javascript:void(0);” in anchor tag: Writing “javascript:void(0);” in anchor tag can prevent the page to reload and JavaScript functions can be called on single or double clicks easily
+<h3>JavaScript:void(0)</h3>
 
 JQUERY
 
