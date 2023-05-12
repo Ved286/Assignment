@@ -99,14 +99,36 @@ add and remove :-
 	
 
 • How to create slider with animation? 
-<script>
-        $(document).ready(function () {
-            $("#o-1").click(function () {
-                $("#o-3").slideDown();
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <!-- cycle.min.js -->
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+</head>
+<body>
+    <div id="slide">
+        <img src="images/1.jpg" height="312px" width="450px" class="slider">
+        <img src="images/2.jpg" height="312px" width="450px" class="slider">
+        <img src="images/3.jpg"  height="312px" width="450px" class="slider">
+    </div>
+
+        <!-- slider apply here -->
+        <script type="text/javascript">
+            $(document).ready(function()
+            {
+                $("#slide").cycle("fade");
+                $("#slide img").css("overflow-y","hidden");
             });
-        });
-</script>
-note:-for slidedown #o-3 element must have display prperty hidden to work
+        </script>
+</body>
+</html>
+
 
 
 
