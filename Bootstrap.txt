@@ -1,0 +1,47 @@
+• What are the advantages of Bootstrap?
+Bootstrap is an open-source CSS framework designed to come up with mobile-friendly, responsive front-end web development. It consists of enormous versatile and reusable pieces of code written in HTML, JavaScript, and CSS. As a framework, fundamentals are already placed for responsive web development, and developers simply need to position the code in a premeditated grid system. Therefore, while coming up with a new website or application, Bootstrap is a boon because it waives off the burden of coding from scratch. You can efficiently blend its ready-made coding blocks, CSS-Less functionality, and cross-browser compatibility to save tedious hours of coding.
+
+• What is a Bootstrap Container, and how does it work?
+Bootstrap Containers are the most basic layout element in Bootstrap. Bootstrap Containers are very essential and basic building blocks of bootstrap that wrap a page’s content. It’s responsible for setting and aligning content within it according to viewport or given device. Containers are defined within the container class (.container). 
+<div class="container">
+	hello
+</div>
+
+• What are the default Bootstrap text settings?
+Bootstrap 4 uses a default font-size of 16px, and its line-height is 1.5. The default font-family is "Helvetica Neue", Helvetica, Arial, sans-serif. 
+
+• What do you know about the Bootstrap Grid System?
+Bootstrap Grid System allows up to 12 columns across the page. You can use each of them individually or merge them together for wider columns. You can use all combinations of values summing up to 12. You can use 12 columns each of width 1, or use 4 columns each of width 3 or any other combination.
+
+
+• What is a Button Group, and what is the class for a basic Button Group?
+Button Groups” in Bootstrap is a class of name “btn-group” which is used to create series of buttons in groups (without spaces) vertically or horizontally.
+This is the basic syntax of the button group class where each button has its own class of “btn”.
+<div class="btn-group">
+    <button type="button" class="btn">Click</button>
+</div>
+
+• How can you use Bootstrap to make thumbnails?
+Bootstrap helps web developers to create thumbnails that are used to show linked images in grids with the pre-defined classes which help to reduce codes length. Thumbnails are created to provide a quick preview of images with small images.
+
+• In Bootstrap 4, what is flexbox?
+ flex box is used to control the layout and alignment specification of Bootstrap 4 components. This box makes it easier to design flexible responsive layout structures without using float or positioning attributes.
+
+• How can one create an alert in Bootstrap?
+The .alert class followed by contextual classes are used to display the alert message on website. 
+<div class="alert alert-warning">
+        <strong>Warning!</strong>
+        There was a problem with connection.
+    </div>
+
+
+• What is a bootstrap card and how would you create one? 
+<div class="card" style="width: 18rem;">
+        <img src="https://images.moneycontrol.com/static-mcnews/2020/03/Ratan-Tata-HOB-3.jpg?impolicy=website&width=1600&height=900" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Ratan Tata</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
+        </div>
+      </div>
+
