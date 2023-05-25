@@ -62,14 +62,13 @@ alert,prompt and confirm box.
 	It is not possible to append innerHTML.
 
 • Write the code for adding new elements dynamically? 
-
+var newP = document.createElement("p"); 
+	var textNode = document.createTextNode(" This is a new text node"); 
+	newP.appendChild(textNode); document.getElementById("firstP").appendChild(newP);
 
 • What is the use of Void (0)? 
-
-
-• How can a page be forced to load another page in JavaScript? 
-
-
+Using “javascript:void(0);” in anchor tag: Writing “javascript:void(0);” in anchor tag can prevent the page to reload and JavaScript functions can be called on single or double clicks easily
+<h3>JavaScript:void(0)</h3>
 
 JQUERY
 
@@ -94,6 +93,7 @@ add and remove :-
             $("button").click(function () {
                 $(to).addClass("one");
                 $(to).removeClass("one");
+<<<<<<< HEAD
             });
         });
 	
@@ -104,10 +104,44 @@ add and remove :-
         $(document).ready(function () {
             $("#o-1").click(function () {
                 $("#o-3").slideDown();
+=======
+>>>>>>> 6e8f62184f7147ff7ae4d1b5d11ac3bffd86ee83
             });
         });
-</script>
-note:-for slidedown #o-3 element must have display prperty hidden to work
+	
+	
+
+• How to create slider with animation? 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src='https://code.jquery.com/jquery-3.6.0.min.js'></script>
+    <!-- cycle.min.js -->
+    <script src="https://malsup.github.io/jquery.cycle.all.js"></script>
+</head>
+<body>
+    <div id="slide">
+        <img src="images/1.jpg" height="312px" width="450px" class="slider">
+        <img src="images/2.jpg" height="312px" width="450px" class="slider">
+        <img src="images/3.jpg"  height="312px" width="450px" class="slider">
+    </div>
+
+        <!-- slider apply here -->
+        <script type="text/javascript">
+            $(document).ready(function()
+            {
+                $("#slide").cycle("fade");
+                $("#slide img").css("overflow-y","hidden");
+            });
+        </script>
+</body>
+</html>
+
 
 
 
